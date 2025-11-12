@@ -1,0 +1,65 @@
+Object 1
+run("Radial Profile", "x=287 y=448 radius=32");
+
+Object 2
+run("Radial Profile", "x=662 y=140 radius=57");
+
+Object 3
+run("Radial Profile", "x=1002 y=311 radius=67");
+
+Object 4
+run("Radial Profile", "x=1084 y=49 radius=46");
+
+Object 5
+run("Radial Profile", "x=869 y=60 radius=59");
+
+
+setOption("InterpolateLines", true);
+makeOval(875, 132, 78, 64);
+run("Restore Selection");
+makeOval(875, 132, 78, 64);
+makeOval(875, 132, 64, 64);
+makeOval(883, 134, 64, 64);
+makeOval(883, 134, 64, 64);
+makeOval(864, 114, 102, 102);
+run("Radial Profile", "x=915 y=165 radius=51");
+setOption("InterpolateLines", true);
+run("Restore Selection");
+makeOval(953, 259, 102, 102);
+run("Restore Selection");
+makeOval(967, 273, 74, 74);
+makeOval(942, 250, 120, 120);
+run("Radial Profile", "x=1002 y=310 radius=60");
+setOption("InterpolateLines", true);
+makeOval(1101, 386, 102, 102);
+run("Restore Selection");
+makeOval(1099, 384, 102, 102);
+makeOval(1108, 393, 84, 84);
+makeOval(1108, 392, 86, 86);
+makeOval(1092, 376, 118, 118);
+run("Radial Profile", "x=1151 y=435 radius=59");
+setOption("InterpolateLines", true);
+makeOval(403, 675, 102, 102);
+run("Restore Selection");
+makeOval(433, 705, 42, 42);
+makeOval(419, 692, 72, 72);
+run("Radial Profile", "x=455 y=728 radius=36");
+setOption("InterpolateLines", true);
+makeOval(1246, 172, 102, 102);
+run("Restore Selection");
+makeOval(1238, 173, 102, 102);
+makeOval(1256, 191, 66, 66);
+makeOval(1253, 190, 66, 66);
+run("Restore Selection");
+makeOval(1136, 552, 66, 66);
+run("Restore Selection");
+makeOval(1131, 554, 66, 66);
+makeOval(1136, 559, 56, 56);
+makeOval(1124, 545, 84, 84);
+run("Radial Profile", "x=1166 y=587 radius=42");
+setOption("InterpolateLines", true);
+runMacro("D:/Desktop/Noireaux_Lab/Collab - AL/Revision/save_radial_profi_multil_for_revision.ijm");
+run("Close");
+close();
+selectWindow("mC");
+close();

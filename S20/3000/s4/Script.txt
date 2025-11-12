@@ -1,0 +1,77 @@
+object 1
+run("Radial Profile", "x=123 y=450 radius=84");
+
+object 2
+run("Radial Profile", "x=433 y=531 radius=74");
+
+object 3
+run("Radial Profile", "x=553 y=141 radius=53");
+
+object 4
+run("Radial Profile", "x=765 y=160 radius=60");
+
+object 5
+run("Radial Profile", "x=789 y=891 radius=138");
+
+object 6
+run("Radial Profile", "x=1023 y=661 radius=118");
+
+Object 7
+run("Radial Profile", "x=1210 y=325 radius=81");
+
+Object 8
+run("Radial Profile", "x=1222 y=947 radius=90");
+
+
+
+makeOval(716, 117, 91, 80);
+makeOval(727, 117, 80, 80);
+makeOval(727, 121, 80, 80);
+run("Restore Selection");
+makeOval(700, 94, 134, 134);
+run("Radial Profile", "x=767 y=161 radius=67");
+setOption("InterpolateLines", true);
+makeOval(518, 335, 80, 80);
+run("Restore Selection");
+makeOval(527, 344, 62, 62);
+makeOval(527, 348, 58, 58);
+makeOval(507, 327, 98, 98);
+run("Radial Profile", "x=556 y=376 radius=49");
+setOption("InterpolateLines", true);
+makeOval(786, 350, 80, 80);
+run("Restore Selection");
+makeOval(784, 347, 80, 80);
+makeOval(774, 337, 100, 100);
+makeOval(763, 348, 82, 70);
+makeOval(735, 336, 131, 101);
+makeOval(765, 336, 101, 101);
+makeOval(773, 339, 101, 101);
+makeOval(781, 347, 84, 84);
+makeOval(774, 339, 100, 100);
+run("Radial Profile", "x=824 y=389 radius=50");
+setOption("InterpolateLines", true);
+makeOval(394, 491, 80, 80);
+run("Restore Selection");
+makeOval(400, 497, 68, 68);
+makeOval(379, 477, 108, 108);
+run("Radial Profile", "x=433 y=531 radius=54");
+setOption("InterpolateLines", true);
+makeOval(83, 612, 80, 80);
+run("Restore Selection");
+makeOval(85, 614, 80, 80);
+makeOval(94, 623, 62, 62);
+run("Restore Selection");
+makeOval(67, 597, 114, 114);
+run("Radial Profile", "x=124 y=654 radius=57");
+setOption("InterpolateLines", true);
+makeOval(1026, 788, 62, 62);
+run("Restore Selection");
+makeOval(1021, 783, 72, 72);
+makeOval(1001, 764, 108, 108);
+run("Radial Profile", "x=1055 y=818 radius=54");
+setOption("InterpolateLines", true);
+runMacro("D:/Desktop/Noireaux_Lab/Collab - AL/Revision/save_radial_profi_multil_for_revision.ijm");
+run("Close");
+close();
+selectWindow("mC");
+close();

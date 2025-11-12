@@ -1,0 +1,164 @@
+object 1
+run("Radial Profile", "x=52 y=200 radius=51");
+
+object 2
+run("Radial Profile", "x=148 y=901 radius=70");
+
+object 3
+run("Radial Profile", "x=219 y=733 radius=49");
+
+object 4
+run("Radial Profile", "x=294 y=737 radius=43");
+
+object 5
+run("Radial Profile", "x=391 y=792 radius=40");
+
+object 6
+run("Radial Profile", "x=390 y=665 radius=56");
+
+object 7
+run("Radial Profile", "x=314 y=318 radius=61");
+
+object 8
+run("Radial Profile", "x=273 y=267 radius=42");
+
+object 9
+run("Radial Profile", "x=317 y=109 radius=49");
+
+object 10
+run("Radial Profile", "x=299 y=52 radius=50");
+
+object 11
+run("Radial Profile", "x=387 y=245 radius=49");
+
+object 12
+run("Radial Profile", "x=362 y=374 radius=57");
+
+object 13
+run("Radial Profile", "x=450 y=375 radius=60");
+
+object 14
+run("Radial Profile", "x=148 y=901 radius=66");
+
+object 15
+run("Radial Profile", "x=505 y=818 radius=68");
+
+object 16
+run("Radial Profile", "x=552 y=737 radius=73");
+
+object 17
+run("Radial Profile", "x=592 y=898 radius=81");
+
+object 18
+run("Radial Profile", "x=618 y=654 radius=44");
+
+object 19
+run("Radial Profile", "x=576 y=614 radius=42");
+
+object 20
+run("Radial Profile", "x=561 y=459 radius=73");
+
+object 21
+run("Radial Profile", "x=722 y=940 radius=53");
+
+object 22
+run("Radial Profile", "x=758 y=851 radius=50");
+
+object 23
+run("Radial Profile", "x=853 y=931 radius=51");
+
+object 24
+run("Radial Profile", "x=1004 y=845 radius=73");
+
+object 25
+run("Radial Profile", "x=987 y=690 radius=131");
+
+object 26
+run("Radial Profile", "x=1132 y=819 radius=81");
+
+object 27
+run("Radial Profile", "x=1304 y=897 radius=61");
+
+
+
+makeOval(981, 288, 60, 52);
+makeOval(989, 288, 52, 52);
+makeOval(992, 290, 52, 52);
+run("Restore Selection");
+makeOval(992, 287, 52, 52);
+makeOval(994, 289, 48, 48);
+makeOval(980, 276, 76, 76);
+run("Radial Profile", "x=1018 y=314 radius=38");
+setOption("InterpolateLines", true);
+makeOval(1159, 80, 52, 52);
+run("Restore Selection");
+makeOval(1159, 79, 52, 52);
+makeOval(1153, 73, 64, 64);
+makeOval(1130, 50, 108, 108);
+run("Radial Profile", "x=1184 y=104 radius=54");
+setOption("InterpolateLines", true);
+makeOval(869, 512, 52, 52);
+run("Restore Selection");
+makeOval(870, 511, 52, 52);
+makeOval(864, 505, 64, 64);
+run("Radial Profile", "x=896 y=537 radius=32");
+setOption("InterpolateLines", true);
+run("Restore Selection");
+makeOval(588, 623, 64, 64);
+run("Restore Selection");
+makeOval(586, 622, 64, 64);
+makeOval(592, 628, 52, 52);
+makeOval(573, 609, 88, 88);
+run("Radial Profile", "x=617 y=653 radius=44");
+setOption("InterpolateLines", true);
+makeOval(532, 572, 88, 88);
+makeOval(550, 590, 52, 52);
+makeOval(533, 572, 86, 86);
+run("Radial Profile", "x=576 y=615 radius=43");
+setOption("InterpolateLines", true);
+makeOval(355, 213, 64, 64);
+run("Restore Selection");
+makeOval(359, 217, 56, 56);
+makeOval(344, 202, 86, 86);
+run("Radial Profile", "x=387 y=245 radius=43");
+setOption("InterpolateLines", true);
+makeOval(190, 703, 64, 64);
+run("Restore Selection");
+makeOval(188, 702, 64, 64);
+makeOval(194, 708, 52, 52);
+makeOval(163, 677, 112, 112);
+run("Radial Profile", "x=219 y=733 radius=56");
+setOption("InterpolateLines", true);
+makeOval(155, 816, 64, 64);
+run("Restore Selection");
+makeOval(152, 814, 64, 64);
+makeOval(160, 822, 48, 48);
+makeOval(150, 811, 66, 66);
+run("Radial Profile", "x=183 y=844 radius=33");
+setOption("InterpolateLines", true);
+makeOval(473, 788, 64, 64);
+makeOval(518, 708, 64, 64);
+run("Restore Selection");
+makeOval(520, 705, 64, 64);
+makeOval(498, 683, 108, 108);
+run("Radial Profile", "x=552 y=737 radius=54");
+setOption("InterpolateLines", true);
+makeOval(456, 754, 108, 108);
+makeOval(476, 774, 68, 68);
+makeOval(472, 785, 68, 68);
+makeOval(445, 758, 122, 122);
+run("Radial Profile", "x=506 y=819 radius=61");
+setOption("InterpolateLines", true);
+makeOval(523, 824, 122, 122);
+makeOval(535, 839, 122, 122);
+makeOval(558, 862, 76, 76);
+makeOval(554, 861, 76, 76);
+makeOval(550, 857, 84, 84);
+makeOval(534, 841, 116, 116);
+run("Radial Profile", "x=592 y=899 radius=58");
+setOption("InterpolateLines", true);
+run("Restore Selection");
+runMacro("D:/Desktop/Noireaux_Lab/Collab - AL/Revision/save_radial_profi_multil_for_revision.ijm");
+close();
+selectWindow("GFP");
+close();

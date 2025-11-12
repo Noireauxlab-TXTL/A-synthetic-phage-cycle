@@ -1,0 +1,7 @@
+run("Radial Profile", "x=272.50 y=278.50 radius=300");
+run("Radial Profile", "x=595.50 y=255.50 radius=300");
+run("Radial Profile", "x=610.50 y=616.50 radius=300");
+run("Radial Profile", "x=1152.50 y=911.50 radius=300");
+run("Radial Profile", "x=696.50 y=726.50 radius=300");
+run("Radial Profile", "x=242.50 y=864.50 radius=300");
+run("Radial Profile", "x=780 y=730 radius=300");
